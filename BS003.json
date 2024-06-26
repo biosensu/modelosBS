@@ -1,0 +1,455 @@
+{
+    "uuid": "BS003",
+"nome": "Redes de neblina (ornito)",
+"grupo": "ornito",
+"metadados_iniciais": [
+    {
+        "nome_widget": "Texto curto",
+        "widget": "texto_curto",
+        "id": "nome_ficha",
+        "tipo": "texto",
+        "nome": "Nome da ficha",
+        "categoria": "genericos"
+    },
+    {
+        "nome_widget": "Setor e Ponto",
+        "widget": "ponto",
+        "id": "setorponto1",
+        "tipo": "ponto",
+        "nome": "Ponto Amostral"
+    },
+    {
+        "nome_widget": "Data",
+        "widget": "data",
+        "id": "data1",
+        "tipo": "data",
+        "nome": "Data",
+        "options": {
+            "autopreencher": true
+        }
+    },
+    {
+        "nome_widget": "Hora",
+        "widget": "hora",
+        "id": "hora1",
+        "tipo": "hora",
+        "nome": "Hora de início",
+        "options": {
+            "autopreencher": true
+        }
+    },
+    {
+        "nome_widget": "Temperatura",
+        "widget": "temperatura",
+        "id": "temp1",
+        "tipo": "temperatura_celsius",
+        "nome": "Temperatura inicial",
+        "options": {
+            "speedDial": true
+        }
+    }
+],
+"campos": [
+    {
+        "nome_widget": "Hora",
+        "widget": "hora",
+        "id": "hora",
+        "tipo": "hora",
+        "nome": "Hora de registro",
+        "options": {
+            "autopreencher": true
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "status",
+        "tipo": "select",
+        "nome": "Status",
+        "options": {
+            "opcoes": [
+                "1: Indivíduo novo",
+                "2: Recaptura",
+                "3: Recuperação (outro projeto)"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Texto curto",
+        "widget": "texto_curto",
+        "id": "anilha",
+        "tipo": "texto",
+        "nome": "Anilha"
+    },
+    {
+        "nome_widget": "Texto curto",
+        "widget": "texto_curto",
+        "id": "anilhador",
+        "tipo": "texto",
+        "nome": "Anilhador"
+    },
+    {
+        "nome_widget": "Espécie",
+        "widget": "especie",
+        "id": "especie",
+        "tipo": "especie",
+        "nome": "Espécie",
+        "options": {
+            "grupos": [
+                "ornito"
+            ],
+            "outros": false
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "cloaca",
+        "tipo": "select",
+        "nome": "Cloaca",
+        "options": {
+            "opcoes": [
+                "0: Sem protuberância",
+                "1: Pequena protuberância",
+                "2: Média protuberância",
+                "3: Grande protuberância",
+                "U: Indeterminado"
+             
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "placa_incubacao",
+        "tipo": "select",
+        "nome": "Placa de incubação",
+        "options": {
+            "opcoes": [
+                "0: Sem placa presente",
+                "1: Peito da região da placa de incubação parcial ou totalmente sem penas",
+                "2: Placa de incubação vascularizada",
+                "3: Vascularização extrema",
+                "4: Placa de incubação pós vascularização",
+                "5: Vascularização e fluido desapareceram por completo",
+                "U: Indeterminado"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "gordura",
+        "tipo": "select",
+        "nome": "Gordura",
+        "options": {
+            "opcoes": [
+                "0: Sem gordura",
+                "1: Fina camada de gordura na cavidade da fúrcula",
+                "2: Camada espeça de gordura",
+                "3: Completamente preenchida de gordura",
+                "4: A camada de gordura está transbordando",
+                "U: Indeterminado"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "desgaste",
+        "tipo": "select",
+        "nome": "Desgaste de penas primárias",
+        "options": {
+            "opcoes": [
+                "0: Sem desgaste",
+                "1: Dano mínimo",
+                "2: Dano leve",
+                "3: Dano moderado",
+                "4: Dano intenso",
+                "5: Dano excessivo"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Comprimento",
+        "widget": "comprimento",
+        "id": "comprimento_asa",
+        "tipo": "comprimento",
+        "nome": "Asa direita (comprimento)",
+        "options": {
+            "unidade": "mm",
+            "speedDial": true
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "muda_voo",
+        "tipo": "select",
+        "nome": "Muda de asa (voo)",
+        "options": {
+            "opcoes": [
+                "0: Sem muda",
+                "1: Muda assimétrica",
+                "2: Muda simétrica"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "muda_corpo",
+        "tipo": "select",
+        "nome": "Muda de penas do corpo",
+        "options": {
+            "opcoes": [
+                "0: Sem muda de corpo",
+                "1: Traços de muda (<10%)",
+                "2: Muda leve (10 – 30%)",
+                "3: Muda moderada (40-60%)",
+                "4: Muda intensa (>60%)"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "cranio",
+        "tipo": "select",
+        "nome": "Ossificação do crânio",
+        "options": {
+            "opcoes": [
+                "0: Apenas uma camada de ossificação",
+                "1: Até 1/3 do crânio com segunda camada de ossificação",
+                "2: Aproximadamenete metade do crânio já com segunda camada ossificada",
+                "3: Grande parte (até ¾) do crânio já com segunda camada ossificada",
+                "4: Pneumatização quase completa, apenas pequenas (<10%) janelas não ossificadas",
+                "5: Pneumatização completa",
+                "U: Ossificação indefinida"
+                
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "pena_juvenil",
+        "tipo": "select",
+        "nome": "Penas de plumagem juvenil",
+        "options": {
+            "opcoes": [
+                "N: sem plumagem juvenil",
+                "L: plumagem juvenil retidas das coberteiras das asas e/ou remiges, retrizes",
+                "H: plumagem juvenil retidas parcialmente no corpo além das coberteiras das asas",
+                "F: Plumagem juvenil completa ou quase completa",
+                "U: Presença de penas retidas da plumagem juvenil indefinida devido à incerteza"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "limites_muda",
+        "tipo": "select",
+        "nome": "Limites de muda",
+        "options": {
+            "opcoes": [
+                "N: Sem limites",
+                "G: Grandes coberteiras",
+                "A: Alulas",
+                "F: Coberteiras primárias",
+                "C: Penas de corpo",
+                "M: Pequenas e/ou médias coberteiras",
+                "P: Primárias",
+                "V: Entre coberteiras médias e primárias",
+                "S: Secundárias",
+                "W: Coberteiras de asa ventral",
+                "T: Terciárias",
+                "U: Indeterminado por incerteza"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Sexo",
+        "widget": "sexo",
+        "id": "sexo",
+        "tipo": "sexo",
+        "nome": "Sexo"
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "criterios_sexo",
+        "tipo": "select",
+        "nome": "Critérios para id. de sexo",
+        "options": {
+            "opcoes": [
+                "R: Cloaca/placa desenvolvida ou ovo aparente no oviducto",
+                "Y: Cor da íris",
+                "B: Cor ou estrias de bico",
+                "W: Cor do interior da mandíbula",
+                "P: Plumagem",
+                "T: Cor de pata",
+                "M: Medidas",
+                "X: Outras características descritas nas observações",
+                "U: Indetermidado"
+            ]
+        }
+    },
+   {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "idade",
+        "tipo": "select",
+        "nome": "Idade (ciclo de muda)",
+        "options": {
+            "opcoes": [
+                "FPJ: Pré-juvenil",
+                "FCJ: Juvenil",
+                "FPS: Pré-suplementar",
+                "FCS: Suplementar",
+                "FPF: Pré-formativa",
+                "FCF: Formativa",
+                "FPA: Primeira pré-alterna",
+                "FCA: Primeira alterna",
+                "SPB: 2ª pré-básica",
+                "SCB: 2ª básica",
+                "SPA: 2ª pré-alterna",
+                "SCA: 2ª alterna",
+                "TPB: 3ª pré-básica",
+                "TCB: 3ª básica",
+                "TPA: 3ª pré-alterna",
+                "4PB: 4ª pré-básica",
+                "4CB: 4ª básica",
+                "4PA: 4ª pré-alterna",
+                "4CA: 4ª alterna",
+                "DPB: Definitiva pré-básica",
+                "DCB: Definitiva básica",
+                "DPA: Definitiva pré-alterna",
+                "DCB: Definitiva alterna",
+                "U: Indefinida (especifique nas obs)"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Seletor",
+        "widget": "seletor",
+        "id": "criterios_idade",
+        "tipo": "select",
+        "nome": "Critérios para id. de idade",
+        "options": {
+            "opcoes": [
+                "R: Cloaca/placa desenvolvida ou ovo aparente no oviduto",
+                "Y: Cor da íris",
+                "B: Cor ou estrias no bico",
+                "W: Cor do interior da mandíbula",
+                "C: Comissura de bico retida",
+                "P: Plumagem",
+                "T: Cor de pata",
+                "M: Medidas",
+                "O: Ossificação / Pneumatização do crânio",
+                "A: Muda simétrica da asa",
+                "F: Grandes coberteiras em muda",
+                "D: Dano de penas",
+                "L: Limite de muda",
+                "X: Outras características",
+                "U: Indeterminada por incerteza"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Peso",
+        "widget": "peso",
+        "id": "peso",
+        "tipo": "peso",
+        "nome": "Peso",
+        "options": {
+            "unidade": "g",
+            "speedDial": true
+        }
+    },
+    {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs",
+        "tipo": "texto",
+        "nome": "Observação",
+        "options": {
+            "rows": 3
+        }
+    },
+    {
+        "nome_widget": "Divisor",
+        "widget": "divisor",
+        "tipo": "semvalor",
+        "id": "div3"
+    },
+    {
+        "nome_widget": "Anotação",
+        "widget": "anotacao",
+        "tipo": "semvalor",
+        "id": "nota2",
+        "options": {
+            "texto": "Em caso de coleta de espécime ou material biológico:"
+        }
+    },
+    {
+        "nome_widget": "Multicheck",
+        "widget": "multicheck",
+        "id": "tipo_coleta",
+        "tipo": "lista",
+        "nome": "Tipo de coleta",
+        "options": {
+            "opcoes": [
+                "Indivíduo coletado",
+                "Sangue",
+                "Tecido",
+                "Penas",
+                "Outros"
+            ]
+        }
+    },
+    {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_de_coleta",
+        "tipo": "texto",
+        "nome": "Observações de coleta",
+        "options": {
+            "rows": 2
+        }
+    }
+],
+"metadados_finais": [
+    {
+        "nome_widget": "Hora",
+        "widget": "hora",
+        "id": "hora_termino",
+        "tipo": "hora_termino",
+        "nome": "Hora de término",
+        "options": {
+            "autopreencher": true
+        }
+    },
+    {
+        "nome_widget": "Temperatura",
+        "widget": "temperatura",
+        "id": "temp_final",
+        "tipo": "temperatura_celsius",
+        "nome": "Temperatura final",
+        "options": {
+            "speedDial": true
+        }
+    },
+    {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_finais",
+        "tipo": "texto",
+        "nome": "Observações finais",
+        "options": {
+            "rows": 6
+        }
+    }
+]
+}

@@ -1,0 +1,364 @@
+{
+    "uuid": "BS006",
+    "nome": "Sherman e Tomahawk",
+    "grupo": "masto",
+    "metadados_iniciais": [
+        {
+            "nome_widget": "Texto curto",
+            "widget": "texto_curto",
+            "id": "nome_ficha",
+            "tipo": "texto",
+            "nome": "Nome da ficha"
+        },
+        {
+            "nome_widget": "Ponto Amostral",
+            "widget": "ponto",
+            "id": "ponto_amostral",
+            "tipo": "ponto",
+            "nome": "Ponto Amostral"
+        },
+        {
+            "nome_widget": "Data",
+            "widget": "data",
+            "id": "data",
+            "tipo": "data",
+            "nome": "Data"
+        },
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora_inicio",
+            "tipo": "hora",
+            "nome": "Horário de início"
+        },
+        {
+            "nome_widget": "Temperatura",
+            "widget": "temperatura",
+            "id": "temp_inicial",
+            "tipo": "temperatura_celsius",
+            "nome": "Temperatura inicial",
+            "options": {
+                "speedDial": true
+            }
+        }
+    ],
+    "campos": [
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora_registro",
+            "tipo": "hora",
+            "nome": "Horário do registro"
+        },
+        {
+            "nome_widget": "Seletor",
+            "widget": "seletor",
+            "id": "status",
+            "tipo": "select",
+            "nome": "Status",
+            "options": {
+                "opcoes": [
+                    "Indivíduo novo",
+                    "Recaptura"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Seletor",
+            "widget": "seletor",
+            "id": "tipo_armadilha",
+            "tipo": "select",
+            "nome": "Tipo de armadilha",
+            "options": {
+                "opcoes": [
+                    "Sherman",
+                    "Tomahawk"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Número inteiro",
+            "widget": "quantidade",
+            "id": "num_armadilha",
+            "tipo": "inteiro",
+            "nome": "Número da armadilha (opcional)",
+            "options": {
+                "speedDial": false
+            }
+        },
+        {
+            "nome_widget": "Espécie",
+            "widget": "especie",
+            "id": "especie",
+            "tipo": "especie",
+            "nome": "Espécie",
+            "options": {
+                "grupos": [
+                    "masto"
+                ],
+                "outros": true
+            }
+        },
+        {
+            "nome_widget": "Sexo",
+            "widget": "sexo",
+            "id": "sexo",
+            "tipo": "sexo",
+            "nome": "Sexo"
+        },
+        {
+            "nome_widget": "Seletor",
+            "widget": "seletor",
+            "id": "status_reprodutivo_femea",
+            "tipo": "select",
+            "nome": "Status reprodutivo (fêmea)",
+            "options": {
+                "opcoes": [
+                    "Gestante",
+                    "Lactante",
+                    "Fêmea com filhote",
+                    "Nada consta"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Seletor",
+            "widget": "seletor",
+            "id": "idade",
+            "tipo": "select",
+            "nome": "Idade",
+            "options": {
+                "opcoes": [
+                    "Adulto",
+                    "Jovem"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comprimento",
+            "tipo": "comprimento_total_mm",
+            "nome": "Comprimento total",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_cabeca",
+            "tipo": "comprimento",
+            "nome": "Comprimento da cabeça",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_focinho",
+            "tipo": "comprimento",
+            "nome": "Comprimento do focinho",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_membro_ant_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento do membro anterior",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_membro_post_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento do membro posterior",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_cauda_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento da cauda",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_pavilhao_auricular_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento do pavilhão auricular",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_pe_c_unha_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento do pé com unha",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Comprimento",
+            "widget": "comprimento",
+            "id": "comp_maior_dedo_pe_mm",
+            "tipo": "comprimento",
+            "nome": "Comprimento do maior dedo do pé",
+            "options": {
+                "unidade": "mm",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Peso",
+            "widget": "peso",
+            "id": "peso_total_g",
+            "tipo": "peso",
+            "nome": "Peso total",
+            "options": {
+                "unidade": "g",
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Divisor",
+            "widget": "divisor",
+            "tipo": "semvalor",
+            "id": "div1"
+        },
+        {
+            "nome_widget": "Anotação",
+            "widget": "anotacao",
+            "tipo": "semvalor",
+            "id": "nota1",
+            "options": {
+                "texto": "Em caso de marcação:"
+            }
+        },
+        {
+            "nome_widget": "Multicheck",
+            "widget": "multicheck",
+            "id": "forma_de_marcacao",
+            "tipo": "lista",
+            "nome": "Qual a forma de marcação do animal?",
+            "options": {
+                "opcoes": [
+                    "Natural",
+                    "Brinco",
+                    "Colar",
+                    "Microchip"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Texto curto",
+            "widget": "texto_curto",
+            "id": "obs_da_marcacao",
+            "tipo": "texto",
+            "nome": "Obs da marcação"
+        },{
+            "nome_widget": "Divisor",
+            "widget": "divisor",
+            "tipo": "semvalor",
+            "id": "div3"
+        },
+        {
+            "nome_widget": "Anotação",
+            "widget": "anotacao",
+            "tipo": "semvalor",
+            "id": "nota2",
+            "options": {
+                "texto": "Em caso de coleta de espécime ou material biológico:"
+            }
+        },
+        {
+            "nome_widget": "Multicheck",
+            "widget": "multicheck",
+            "id": "tipo_coleta",
+            "tipo": "lista",
+            "nome": "Tipo de coleta",
+            "options": {
+                "opcoes": [
+                    "Indivíduo coletado",
+                    "Sangue",
+                    "Tecido",
+                    "Pelos",
+                    "Outros"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_de_coleta",
+            "tipo": "texto",
+            "nome": "Observações de coleta",
+            "options": {
+                "rows": 2
+            }
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_geral",
+            "tipo": "texto",
+            "nome": "Obs geral",
+            "options": {
+                "rows": 2
+            }
+        }
+    ],
+    "metadados_finais": [
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora_final",
+            "tipo": "hora",
+            "nome": "Horário de término"
+        },
+        {
+            "nome_widget": "Temperatura",
+            "widget": "temperatura",
+            "id": "temp_final",
+            "tipo": "temperatura_celsius",
+            "nome": "Temperatura Final",
+            "options": {
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_finais",
+            "tipo": "texto",
+            "nome": "Observações finais",
+            "options": {
+                "rows": 9
+            }
+        }
+    ]
+}
