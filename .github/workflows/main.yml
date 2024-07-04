@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Consolidar arquivos JSON
         id: mergeJSONs
-        uses: biosensu/mergeJSONsAction@v1.0
+        uses: biosensu/mergeJSONsAction@v1.1
         with:
           caminho: '/'
           prefixo: 'BS'
