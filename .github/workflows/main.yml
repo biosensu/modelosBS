@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  consolidar_arquivos:
+    runs-on: ubuntu-latest
+    name: Consolidar arquivos JSON
+    steps:
+      - name: Consolidar arquivos JSON
+        id: mergeJSONs
+        uses: biosensu/mergeJSONsAction@v1.0
+        with:
+          caminho: '/'
+          prefixo: 'BS'
