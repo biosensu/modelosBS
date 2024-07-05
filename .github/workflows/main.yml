@@ -11,7 +11,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Consolidar arquivos JSON
         id: mergeJSONs
-        uses: biosensu/mergeJSONsAction@v1.12
+        uses: biosensu/mergeJSONsAction@v1.13
         with:
           caminho: ${{ github.head_ref }}
           prefixo: 'BS'
