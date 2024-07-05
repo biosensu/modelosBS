@@ -4,10 +4,26 @@ jobs:
   consolidar_arquivos:
     runs-on: ubuntu-latest
     name: Consolidar arquivos JSON
+    permissions: write-all
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       - name: Consolidar arquivos JSON
         id: mergeJSONs
-        uses: biosensu/mergeJSONsAction@v1.1
+        uses: biosensu/mergeJSONsAction@v1.11
         with:
-          caminho: '/'
+          caminho: ${{ github.head_ref }}
           prefixo: 'BS'
+      - name: Write File
+        id: writeFile
+        uses: DamianReeves/write-file-action@v1.3
+        with:
+          path: ${{ github.workspace }}/consolidado.json
+          contents: ${{ steps.mergeJSONs.outputs.consolidado }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Automated Change
+          branch: main
+  
+            
