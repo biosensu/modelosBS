@@ -21,12 +21,14 @@ jobs:
         with:
           path: ${{ github.workspace }}/consolidado.json
           contents: ${{ steps.mergeJSONs.outputs.consolidado }}
+          write-mode: overwrite
       - name: Write File
         id: writeFile2
         uses: DamianReeves/write-file-action@v1.3
         with:
           path: ${{ github.workspace }}/resumo.json
           contents: ${{ steps.mergeJSONs.outputs.resumo }}
+          write-mode: overwrite
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automated Change
