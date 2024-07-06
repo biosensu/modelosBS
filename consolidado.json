@@ -1,5 +1,5 @@
-[
-  {
+{
+  "BS000": {
     "uuid": "BS000",
     "nome": "Listas de Mackinnon",
     "grupo": "ornito",
@@ -72,7 +72,7 @@
       }
     ]
   },
-  {
+  "BS001": {
     "uuid": "BS001",
     "nome": "Ponto Fixo",
     "grupo": "ornito",
@@ -188,7 +188,7 @@
       }
     ]
   },
-  {
+  "BS002": {
     "uuid": "BS002",
     "nome": "Transecto",
     "grupo": "ornito",
@@ -290,7 +290,7 @@
       }
     ]
   },
-  {
+  "BS003": {
     "uuid": "BS003",
     "nome": "Rede de neblina (Aves)",
     "grupo": "ornito",
@@ -743,7 +743,7 @@
       }
     ]
   },
-  {
+  "BS004": {
     "uuid": "BS004",
     "nome": "Rede de neblina (morcegos)",
     "grupo": "masto",
@@ -1102,7 +1102,7 @@
       }
     ]
   },
-  {
+  "BS005": {
     "uuid": "BS005",
     "nome": "Pitfalls",
     "grupo": "outros",
@@ -1498,7 +1498,7 @@
       }
     ]
   },
-  {
+  "BS006": {
     "uuid": "BS006",
     "nome": "Sherman e Tomahawk",
     "grupo": "masto",
@@ -1863,7 +1863,7 @@
       }
     ]
   },
-  {
+  "BS007": {
     "uuid": "BS007",
     "nome": "Cadastramento Arbóreo",
     "grupo": "botanica",
@@ -2026,7 +2026,7 @@
       }
     ]
   },
-  {
+  "BS008": {
     "uuid": "BS008",
     "nome": "Busca ativa",
     "grupo": "outros",
@@ -2150,4 +2150,4 @@
       }
     ]
   }
-]
+}
