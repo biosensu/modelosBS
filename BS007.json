@@ -72,7 +72,8 @@
             "tipo": "inteiro",
             "nome": "Plaqueta",
             "options": {
-                "speedDial": true
+                "speedDial": true,
+                "usarCentenas": true
             }
         },
         {
