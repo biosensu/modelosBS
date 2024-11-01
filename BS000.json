@@ -35,6 +35,16 @@
             "nome": "Horário de início"
         },
         {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_iniciais",
+            "tipo": "texto",
+            "nome": "Observações iniciais",
+            "options": {
+                "rows": 3
+            }
+        },
+        {
             "nome_widget": "Número de espécies por lista",
             "widget": "num_sp_mack",
             "id": "num_sp_lista",
