@@ -36,6 +36,16 @@
         "nome": "Horário de início"
       },
       {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
+      },
+      {
         "nome_widget": "Número de espécies por lista",
         "widget": "num_sp_mack",
         "id": "num_sp_lista",
@@ -104,6 +114,16 @@
         "id": "hora_inicio",
         "tipo": "hora",
         "nome": "Horário de início"
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
@@ -220,6 +240,16 @@
         "id": "hora_inicio",
         "tipo": "hora",
         "nome": "Horário de início"
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
@@ -338,6 +368,16 @@
         "nome": "Temperatura inicial",
         "options": {
           "speedDial": true
+        }
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
         }
       }
     ],
@@ -795,6 +835,16 @@
         "options": {
           "barra": true
         }
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
@@ -1143,6 +1193,16 @@
         "nome": "Temperatura inicial",
         "options": {
           "speedDial": true
+        }
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
         }
       }
     ],
@@ -1540,6 +1600,16 @@
         "options": {
           "speedDial": true
         }
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
@@ -1901,6 +1971,16 @@
         "id": "ponto_amostral",
         "tipo": "ponto",
         "nome": "Ponto Amostral"
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
@@ -2059,6 +2139,16 @@
         "id": "hora_inicio",
         "tipo": "hora",
         "nome": "Horário de início"
+      },
+      {
+        "nome_widget": "Texto longo",
+        "widget": "texto_longo",
+        "id": "obs_iniciais",
+        "tipo": "texto",
+        "nome": "Observações iniciais",
+        "options": {
+          "rows": 3
+        }
       }
     ],
     "campos": [
