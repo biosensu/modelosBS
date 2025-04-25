@@ -1,6 +1,6 @@
 {
     "uuid": "BS009",
-    "nome": "Anotações genéricas com GPS",
+    "nome": "Anotações com GPS",
     "grupo": "outros",
     "metadados_iniciais": [
         {
@@ -43,7 +43,7 @@
             "tipo": "texto",
             "nome": "Notas",
             "options": {
-                "rows": 5
+                "rows": 7
             }
         }
     ],
