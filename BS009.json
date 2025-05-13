@@ -33,7 +33,8 @@
             "tipo": "ponto",
             "nome": "Ponto Amostral",
             "options": {
-                "iniciar_com_coordenadas": true
+                "iniciar_com_coordenadas": true,
+                "pre_carregar_ponto_mais_proximo": false
             }
         },
         {
