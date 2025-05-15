@@ -1,6 +1,6 @@
 {
-    "uuid": "BS000",
-    "nome": "Listas de Mackinnon",
+    "uuid": "TL000",
+    "nome": "Mackinnon Lists",
     "grupo": "ornito",
     "configs": {
         "sem_paginacao": true 
@@ -11,35 +11,35 @@
             "widget": "texto_curto",
             "id": "nome_ficha",
             "tipo": "texto",
-            "nome": "Nome da ficha"
+            "nome": "Field sheet name"
         },
         {
             "nome_widget": "Ponto Amostral",
             "widget": "ponto",
             "id": "ponto_amostral",
             "tipo": "ponto",
-            "nome": "Ponto Amostral"
+            "nome": "Sampling point"
         },
         {
             "nome_widget": "Data",
             "widget": "data",
             "id": "data1",
             "tipo": "data",
-            "nome": "Data"
+            "nome": "Date"
         },
         {
             "nome_widget": "Hora",
             "widget": "hora",
             "id": "hora_inicio",
             "tipo": "hora",
-            "nome": "Horário de início"
+            "nome": "Start time"
         },
         {
             "nome_widget": "Texto longo",
             "widget": "texto_longo",
             "id": "obs_iniciais",
             "tipo": "texto",
-            "nome": "Observações iniciais",
+            "nome": "Initial notes",
             "options": {
                 "rows": 3
             }
@@ -49,7 +49,7 @@
             "widget": "num_sp_mack",
             "id": "num_sp_lista",
             "tipo": "semvalor2",
-            "nome": "Número de espécies por lista"
+            "nome": "Number of species per list"
         }
     ],
     "campos": [
@@ -58,7 +58,10 @@
             "widget": "mackinnon",
             "id": "mackinnon",
             "tipo": "mackinnon",
-            "nome": "Lista"
+            "nome": "List",
+            "options": {
+                "usarCR": true
+            }
         }
     ],
     "metadados_finais": [
@@ -67,14 +70,14 @@
             "widget": "hora",
             "id": "hora_final",
             "tipo": "hora",
-            "nome": "Horário de término"
+            "nome": "End time"
         },
         {
             "nome_widget": "Texto longo",
             "widget": "texto_longo",
             "id": "obs_finais",
             "tipo": "texto",
-            "nome": "Observações finais",
+            "nome": "Final notes",
             "options": {
                 "rows": 5
             }

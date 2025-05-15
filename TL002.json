@@ -1,0 +1,112 @@
+{
+    "uuid": "TL002",
+    "nome": "Line Transect",
+    "grupo": "ornito",
+    "metadados_iniciais": [
+        {
+            "nome_widget": "Texto curto",
+            "widget": "texto_curto",
+            "id": "nome_ficha",
+            "tipo": "texto",
+            "nome": "Field sheet name"
+        },
+        {
+            "nome_widget": "Ponto Amostral",
+            "widget": "ponto",
+            "id": "ponto_amostral",
+            "tipo": "ponto",
+            "nome": "Sampling point"
+        },
+        {
+            "nome_widget": "Data",
+            "widget": "data",
+            "id": "data",
+            "tipo": "data",
+            "nome": "Date"
+        },
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora_inicio",
+            "tipo": "hora",
+            "nome": "Start time"
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_iniciais",
+            "tipo": "texto",
+            "nome": "Initial notes",
+            "options": {
+                "rows": 3
+            }
+        }
+    ],
+    "campos": [
+        {
+            "nome_widget": "Espécie",
+            "widget": "especie",
+            "id": "especie",
+            "tipo": "especie",
+            "nome": "Species",
+            "options": {
+                "grupos": [
+                    "costa_rica"
+                ],
+                "outros": false
+            }
+        },
+        {
+            "nome_widget": "Número inteiro",
+            "widget": "quantidade",
+            "id": "n",
+            "tipo": "inteiro",
+            "nome": "N",
+            "options": {
+                "speedDial": true
+            }
+        },
+        {
+            "nome_widget": "Multicheck",
+            "widget": "multicheck",
+            "id": "tipo_registro",
+            "tipo": "lista",
+            "nome": "Record type",
+            "options": {
+                "opcoes": [
+                    "Visual",
+                    "Hearing"
+                ]
+            }
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs",
+            "tipo": "texto",
+            "nome": "Notes",
+            "options": {
+                "rows": 2
+            }
+        }
+    ],
+    "metadados_finais": [
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora_final",
+            "tipo": "hora",
+            "nome": "End time"
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "obs_finais",
+            "tipo": "texto",
+            "nome": "Final notes",
+            "options": {
+                "rows": 9
+            }
+        }
+    ]
+}
