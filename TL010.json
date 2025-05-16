@@ -2,9 +2,6 @@
     "uuid": "TL010",
     "nome": "Night List",
     "grupo": "herpeto",
-    "configs": {
-        "sem_paginacao": true
-    },
     "metadados_iniciais": [
         {
             "nome_widget": "Texto curto",
