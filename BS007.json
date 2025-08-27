@@ -56,9 +56,7 @@
 			"tipo": "especie",
 			"nome": "Espécie",
 			"options": {
-				"grupos": [
-					"flora"
-				],
+				"grupos": ["flora"],
 				"outros": false
 			}
 		},
@@ -69,10 +67,7 @@
 			"tipo": "select",
 			"nome": "Ocorrência",
 			"options": {
-				"opcoes": [
-					"Exótica",
-					"Nativa"
-				]
+				"opcoes": ["Exótica", "Nativa"]
 			}
 		},
 		{
@@ -108,18 +103,24 @@
 			}
 		},
 		{
+			"nome_widget": "Comprimento",
+			"widget": "comprimento",
+			"id": "comp_copa",
+			"tipo": "comprimento",
+			"nome": "Raio de copa",
+			"options": {
+				"unidade": "m",
+				"speedDial": true
+			}
+		},
+		{
 			"nome_widget": "Seletor",
 			"widget": "seletor",
 			"id": "select2",
 			"tipo": "select",
 			"nome": "Fitossanidade",
 			"options": {
-				"opcoes": [
-					"Boa",
-					"Regular",
-					"Ruim",
-					"Morta"
-				]
+				"opcoes": ["Boa", "Regular", "Ruim", "Morta"]
 			}
 		},
 		{
