@@ -2022,11 +2022,14 @@
         }
       },
       {
-        "nome_widget": "Media",
-        "widget": "media",
-        "id": "cap_cm",
+        "nome_widget": "CAP/DAP",
+        "widget": "cap_dap",
+        "id": "cap_dap_cm",
         "tipo": "media",
-        "nome": "CAP em cm"
+        "nome": "CAP/DAP em cm",
+        "options": {
+          "unidade": "cap"
+        }
       },
       {
         "nome_widget": "Comprimento",
