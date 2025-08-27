@@ -130,10 +130,16 @@
 			"nome": "Manejo indicado",
 			"options": {
 				"opcoes": [
+					"Poda de Limpeza",
+					"Poda de Desrama ou Raleamento",
 					"Poda de Adequação",
-					"Poda de Correção",
-					"Poda de levantamento",
-					"Poda de limpeza",
+					"Poda de Elevação de Copa",
+					"Poda de Redução",
+					"Poda de Condução",
+					"Poda Emergencial",
+					"Poda de Restauração",
+					"Poda para Vistas",
+					"Poda de Raízes",
 					"Supressão",
 					"Nenhum"
 				]
