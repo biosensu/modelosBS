@@ -2043,6 +2043,17 @@
         }
       },
       {
+        "nome_widget": "Comprimento",
+        "widget": "comprimento",
+        "id": "comp_copa",
+        "tipo": "comprimento",
+        "nome": "Raio de copa",
+        "options": {
+          "unidade": "m",
+          "speedDial": true
+        }
+      },
+      {
         "nome_widget": "Seletor",
         "widget": "seletor",
         "id": "select2",
