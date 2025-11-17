@@ -73,7 +73,7 @@
 		},
 		{
 			"nome_widget": "Número inteiro",
-			"widget": "inteiro",
+			"widget": "quantidade",
 			"id": "num_balde",
 			"tipo": "inteiro",
 			"nome": "Número do balde (opcional)",

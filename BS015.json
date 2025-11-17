@@ -83,7 +83,7 @@
 		},
 		{
 			"nome_widget": "Número inteiro",
-			"widget": "inteiro",
+			"widget": "quantidade",
 			"id": "num_armadilha",
 			"tipo": "inteiro",
 			"nome": "Número da armadilha (opcional)",

@@ -72,7 +72,7 @@
 		},
 		{
 			"nome_widget": "Número inteiro",
-			"widget": "inteiro",
+			"widget": "quantidade",
 			"id": "num2",
 			"tipo": "inteiro",
 			"nome": "Plaqueta",
@@ -82,15 +82,15 @@
 			}
 		},
 		{
-            "nome_widget": "CAP",
-            "widget": "decimal",
-            "id": "cap_cm",
-            "tipo": "decimal",
-            "nome": "CAP",
-            "options": {
-                "unidade": "cm"
-            }
-        },
+			"nome_widget": "CAP",
+			"widget": "decimal",
+			"id": "cap_cm",
+			"tipo": "decimal",
+			"nome": "CAP",
+			"options": {
+				"unidade": "cm"
+			}
+		},
 		{
 			"nome_widget": "Comprimento",
 			"widget": "decimal",
