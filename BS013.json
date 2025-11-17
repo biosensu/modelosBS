@@ -111,7 +111,7 @@
 			"tipo": "select",
 			"nome": "Sexo",
 			"options": {
-				"opcoes": ["♂", "♀", "?"]
+				"opcoes": ["♂️", "♀", "❔"]
 			}
 		},
 		{
