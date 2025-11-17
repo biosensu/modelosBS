@@ -1,0 +1,52 @@
+{
+    "uuid": "BS018",
+    "nome": "Anotações com GPS",
+    "grupo": "outros",
+    "metadados_iniciais": [
+        {
+            "nome_widget": "Texto curto",
+            "widget": "texto_curto",
+            "id": "nome_ficha",
+            "tipo": "texto",
+            "nome": "Nome da ficha"
+        }
+    ],
+    "campos": [
+        {
+            "nome_widget": "Data",
+            "widget": "data",
+            "id": "data",
+            "tipo": "data",
+            "nome": "Data"
+        },
+        {
+            "nome_widget": "Hora",
+            "widget": "hora",
+            "id": "hora",
+            "tipo": "hora",
+            "nome": "Horário"
+        },
+        {
+            "nome_widget": "Ponto",
+            "widget": "ponto",
+            "id": "ponto_amostral",
+            "tipo": "ponto",
+            "nome": "Ponto Amostral",
+            "options": {
+                "iniciar_com_coordenadas": true,
+                "pre_carregar_ponto_mais_proximo": false
+            }
+        },
+        {
+            "nome_widget": "Texto longo",
+            "widget": "texto_longo",
+            "id": "notas",
+            "tipo": "texto",
+            "nome": "Notas",
+            "options": {
+                "rows": 7
+            }
+        }
+    ],
+    "metadados_finais": []
+}

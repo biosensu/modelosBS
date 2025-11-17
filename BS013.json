@@ -1,0 +1,363 @@
+{
+	"uuid": "BS013",
+	"nome": "Rede de neblina (morcegos)",
+	"grupo": "masto",
+	"metadados_iniciais": [
+		{
+			"nome_widget": "Texto curto",
+			"widget": "texto_curto",
+			"id": "nome_ficha",
+			"tipo": "texto",
+			"nome": "Nome da ficha"
+		},
+		{
+			"nome_widget": "Ponto Amostral",
+			"widget": "ponto",
+			"id": "ponto_amostral",
+			"tipo": "ponto",
+			"nome": "Ponto Amostral"
+		},
+		{
+			"nome_widget": "Data",
+			"widget": "data",
+			"id": "data",
+			"tipo": "data",
+			"nome": "Data"
+		},
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_abertura_redes",
+			"tipo": "hora",
+			"nome": "Horário de abertura das redes"
+		},
+		{
+			"nome_widget": "Temperatura",
+			"widget": "decimal",
+			"id": "temp_inicial",
+			"tipo": "decimal",
+			"nome": "Temperatura inicial",
+			"options": {
+				"speedDial": true,
+				"unidade": "°C"
+			}
+		},
+		{
+			"nome_widget": "Porcentagem",
+			"widget": "porcentagem",
+			"id": "umidade_ar_inicial",
+			"tipo": "porcentagem",
+			"nome": "Umidade do ar",
+			"options": {
+				"barra": true
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_iniciais",
+			"tipo": "texto",
+			"nome": "Observações iniciais",
+			"options": {
+				"rows": 3
+			}
+		}
+	],
+	"campos": [
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_captura",
+			"tipo": "hora",
+			"nome": "Horário de captura do indivíduo"
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "status",
+			"tipo": "select",
+			"nome": "Status",
+			"options": {
+				"opcoes": [
+					"C - Captura",
+					"R - Recaptura",
+					"ROP - Recuperação (anilhado em outro projeto)",
+					"NA - Não anilhado"
+				]
+			}
+		},
+		{
+			"nome_widget": "Texto curto",
+			"widget": "texto_curto",
+			"id": "num_anilha",
+			"tipo": "texto",
+			"nome": "Numeração da anilha"
+		},
+		{
+			"nome_widget": "Espécie",
+			"widget": "especie",
+			"id": "especie",
+			"tipo": "especie",
+			"nome": "Espécie",
+			"options": {
+				"grupos": ["masto"],
+				"outros": false
+			}
+		},
+		{
+			"nome_widget": "Sexo",
+			"widget": "seletor",
+			"id": "sexo",
+			"tipo": "select",
+			"nome": "Sexo",
+			"options": {
+				"opcoes": ["♂", "♀", "?"]
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "status_reprodutivo_femea",
+			"tipo": "select",
+			"nome": "Status reprodutivo",
+			"options": {
+				"opcoes": [
+					"Gestante",
+					"Lactante",
+					"Pós-lactante",
+					"Lactante-grávida",
+					"Inativo",
+					"Testículo escrotado",
+					"Testículo abdominal"
+				]
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "idade",
+			"tipo": "select",
+			"nome": "Idade",
+			"options": {
+				"opcoes": ["Adulto", "Juvenil"]
+			}
+		},
+		{
+			"nome_widget": "Peso",
+			"widget": "decimal",
+			"id": "peso_total_g",
+			"tipo": "decimal",
+			"nome": "Peso total",
+			"options": {
+				"unidade": "g",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_antebraco",
+			"tipo": "decimal",
+			"nome": "Comprimento do antebraço",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_cabeca",
+			"tipo": "decimal",
+			"nome": "Comprimento da cabeça",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_folha_nasal",
+			"tipo": "decimal",
+			"nome": "Comprimento da folha nasal",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_orelha",
+			"tipo": "decimal",
+			"nome": "Comprimento da orelha",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_trago",
+			"tipo": "decimal",
+			"nome": "Comprimento do trago",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_tibia",
+			"tipo": "decimal",
+			"nome": "Comprimento da tíbia",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_pe",
+			"tipo": "decimal",
+			"nome": "Comprimento do pé",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_calcaneo",
+			"tipo": "decimal",
+			"nome": "Comprimento do calcâneo",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_cauda",
+			"tipo": "decimal",
+			"nome": "Comprimento da cauda",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_uropatagio",
+			"tipo": "decimal",
+			"nome": "Comprimento do uropatágio",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_corpo",
+			"tipo": "decimal",
+			"nome": "Comprimento do corpo",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs",
+			"tipo": "texto",
+			"nome": "Observações",
+			"options": {
+				"rows": 2
+			}
+		},
+		{
+			"nome_widget": "Divisor",
+			"widget": "divisor",
+			"tipo": "semvalor",
+			"id": "div3"
+		},
+		{
+			"nome_widget": "Anotação",
+			"widget": "anotacao",
+			"tipo": "semvalor",
+			"id": "nota2",
+			"options": {
+				"texto": "Em caso de coleta de espécime ou material biológico:"
+			}
+		},
+		{
+			"nome_widget": "Multicheck",
+			"widget": "multicheck",
+			"id": "tipo_coleta",
+			"tipo": "lista",
+			"nome": "Tipo de coleta",
+			"options": {
+				"opcoes": ["Indivíduo coletado", "Sangue", "Tecido", "Pelos", "Outros"]
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_de_coleta",
+			"tipo": "texto",
+			"nome": "Observações de coleta",
+			"options": {
+				"rows": 2
+			}
+		}
+	],
+	"metadados_finais": [
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_fechamento_redes",
+			"tipo": "hora",
+			"nome": "Horário de fechamento das redes"
+		},
+		{
+			"nome_widget": "Temperatura",
+			"widget": "decimal",
+			"id": "temp_final",
+			"tipo": "decimal",
+			"nome": "Temperatura Final",
+			"options": {
+				"speedDial": true,
+				"unidade": "°C"
+			}
+		},
+		{
+			"nome_widget": "Porcentagem",
+			"widget": "porcentagem",
+			"id": "umidade_ar_final",
+			"tipo": "porcentagem",
+			"nome": "Umidade do ar",
+			"options": {
+				"barra": true
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_gerais",
+			"tipo": "texto",
+			"nome": "Observações finais",
+			"options": {
+				"rows": 9
+			}
+		}
+	]
+}

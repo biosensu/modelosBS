@@ -1,0 +1,186 @@
+{
+	"uuid": "BS016",
+	"nome": "Cadastramento Arbóreo",
+	"grupo": "botanica",
+	"metadados_iniciais": [
+		{
+			"nome_widget": "Texto curto",
+			"widget": "texto_curto",
+			"id": "nome_ficha",
+			"tipo": "texto",
+			"nome": "Nome da ficha"
+		},
+		{
+			"nome_widget": "Data",
+			"widget": "data",
+			"id": "data1",
+			"tipo": "data",
+			"nome": "Data",
+			"options": {
+				"autopreencher": true
+			}
+		},
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora1",
+			"tipo": "hora",
+			"nome": "Hora",
+			"options": {
+				"autopreencher": true
+			}
+		},
+		{
+			"nome_widget": "Ponto",
+			"widget": "ponto",
+			"id": "ponto_amostral",
+			"tipo": "ponto",
+			"nome": "Ponto Amostral"
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_iniciais",
+			"tipo": "texto",
+			"nome": "Observações iniciais",
+			"options": {
+				"rows": 3
+			}
+		}
+	],
+	"campos": [
+		{
+			"nome_widget": "Espécie",
+			"widget": "especie",
+			"id": "sp1",
+			"tipo": "especie",
+			"nome": "Espécie",
+			"options": {
+				"grupos": ["flora"],
+				"outros": false
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "select1",
+			"tipo": "select",
+			"nome": "Ocorrência",
+			"options": {
+				"opcoes": ["Exótica", "Nativa"]
+			}
+		},
+		{
+			"nome_widget": "Número inteiro",
+			"widget": "inteiro",
+			"id": "num2",
+			"tipo": "inteiro",
+			"nome": "Plaqueta",
+			"options": {
+				"speedDial": true,
+				"usarCentenas": true
+			}
+		},
+		{
+            "nome_widget": "CAP",
+            "widget": "decimal",
+            "id": "cap_cm",
+            "tipo": "decimal",
+            "nome": "CAP",
+            "options": {
+                "unidade": "cm"
+            }
+        },
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp2",
+			"tipo": "decimal",
+			"nome": "Altura",
+			"options": {
+				"unidade": "m",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_copa",
+			"tipo": "decimal",
+			"nome": "Raio de copa",
+			"options": {
+				"unidade": "m",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "select2",
+			"tipo": "select",
+			"nome": "Fitossanidade",
+			"options": {
+				"opcoes": ["Boa", "Regular", "Ruim", "Morta"]
+			}
+		},
+		{
+			"nome_widget": "Multicheck",
+			"widget": "multicheck",
+			"id": "multic1",
+			"tipo": "lista",
+			"nome": "Manejo indicado",
+			"options": {
+				"opcoes": [
+					"Poda de Limpeza",
+					"Poda de Desrama ou Raleamento",
+					"Poda de Adequação",
+					"Poda de Elevação de Copa",
+					"Poda de Redução",
+					"Poda de Condução",
+					"Poda Emergencial",
+					"Poda de Restauração",
+					"Poda para Vistas",
+					"Poda de Raízes",
+					"Supressão",
+					"Nenhum"
+				]
+			}
+		},
+		{
+			"nome_widget": "Coordenadas",
+			"widget": "coordenadas",
+			"id": "coord1",
+			"tipo": "coordenada",
+			"nome": "Coordenadas"
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "txt1",
+			"tipo": "texto",
+			"nome": "Observações",
+			"options": {
+				"rows": 3
+			}
+		}
+	],
+	"metadados_finais": [
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_final",
+			"tipo": "hora",
+			"nome": "Horário de término"
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_finais",
+			"tipo": "texto",
+			"nome": "Observações finais",
+			"options": {
+				"rows": 9
+			}
+		}
+	]
+}

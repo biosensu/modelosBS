@@ -1,0 +1,384 @@
+{
+	"uuid": "BS014",
+	"nome": "Pitfalls",
+	"grupo": "outros",
+	"metadados_iniciais": [
+		{
+			"nome_widget": "Texto curto",
+			"widget": "texto_curto",
+			"id": "nome_ficha",
+			"tipo": "texto",
+			"nome": "Nome da ficha"
+		},
+		{
+			"nome_widget": "Ponto Amostral",
+			"widget": "ponto",
+			"id": "ponto_amostral",
+			"tipo": "ponto",
+			"nome": "Ponto Amostral"
+		},
+		{
+			"nome_widget": "Data",
+			"widget": "data",
+			"id": "data",
+			"tipo": "data",
+			"nome": "Data"
+		},
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_inicio",
+			"tipo": "hora",
+			"nome": "Horário de início"
+		},
+		{
+			"nome_widget": "Temperatura",
+			"widget": "decimal",
+			"id": "temp_inicial",
+			"tipo": "decimal",
+			"nome": "Temperatura inicial",
+			"options": {
+				"speedDial": true,
+				"unidade": "°C"
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_iniciais",
+			"tipo": "texto",
+			"nome": "Observações iniciais",
+			"options": {
+				"rows": 3
+			}
+		}
+	],
+	"campos": [
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora",
+			"tipo": "hora",
+			"nome": "Horário do registro"
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "status",
+			"tipo": "select",
+			"nome": "Status",
+			"options": {
+				"opcoes": ["Indivíduo novo", "Recaptura"]
+			}
+		},
+		{
+			"nome_widget": "Número inteiro",
+			"widget": "inteiro",
+			"id": "num_balde",
+			"tipo": "inteiro",
+			"nome": "Número do balde (opcional)",
+			"options": {
+				"speedDial": false
+			}
+		},
+		{
+			"nome_widget": "Espécie",
+			"widget": "especie",
+			"id": "especie",
+			"tipo": "especie",
+			"nome": "Espécie",
+			"options": {
+				"grupos": ["masto", "herpeto"],
+				"outros": true
+			}
+		},
+		{
+			"nome_widget": "Sexo",
+			"widget": "seletor",
+			"id": "sexo",
+			"tipo": "select",
+			"nome": "Sexo",
+			"options": {
+				"opcoes": ["♂", "♀", "?"]
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "status_reprodutivo_femea",
+			"tipo": "select",
+			"nome": "Status reprodutivo (fêmea)",
+			"options": {
+				"opcoes": ["Gestante", "Ovada", "Nada consta"]
+			}
+		},
+		{
+			"nome_widget": "Seletor",
+			"widget": "seletor",
+			"id": "idade",
+			"tipo": "select",
+			"nome": "Idade",
+			"options": {
+				"opcoes": ["Adulto", "Jovem"]
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_total_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento total",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_cabeca",
+			"tipo": "decimal",
+			"nome": "Comprimento da cabeça",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_cauda_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento da cauda",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Divisor",
+			"widget": "divisor",
+			"tipo": "semvalor",
+			"id": "div1"
+		},
+		{
+			"nome_widget": "Anotação",
+			"widget": "anotacao",
+			"tipo": "semvalor",
+			"id": "nota2",
+			"options": {
+				"texto": "Em caso de herpetofauna:"
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_rostro_cloacal_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento rostro-cloacal",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Divisor",
+			"widget": "divisor",
+			"tipo": "semvalor",
+			"id": "div1"
+		},
+		{
+			"nome_widget": "Anotação",
+			"widget": "anotacao",
+			"tipo": "semvalor",
+			"id": "nota2",
+			"options": {
+				"texto": "Em caso de mastofauna:"
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_focinho_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento do focinho",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_membro_anterior_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento do membro anterior",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp3",
+			"tipo": "decimal",
+			"nome": "Comprimento do membro posterior",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_pavilhao_auricular_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento do pavilhão auricular",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_pe_c_unha_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento do pé com unha",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Comprimento",
+			"widget": "decimal",
+			"id": "comp_maior_dedo_pe_mm",
+			"tipo": "decimal",
+			"nome": "Comprimento do maior dedo do pé",
+			"options": {
+				"unidade": "mm",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Peso",
+			"widget": "decimal",
+			"id": "peso_total_g",
+			"tipo": "decimal",
+			"nome": "Peso total",
+			"options": {
+				"unidade": "g",
+				"speedDial": true
+			}
+		},
+		{
+			"nome_widget": "Divisor",
+			"widget": "divisor",
+			"tipo": "semvalor",
+			"id": "div1"
+		},
+		{
+			"nome_widget": "Anotação",
+			"widget": "anotacao",
+			"tipo": "semvalor",
+			"id": "nota1",
+			"options": {
+				"texto": "Em caso de marcação:"
+			}
+		},
+		{
+			"nome_widget": "Multicheck",
+			"widget": "multicheck",
+			"id": "forma_de_marcacao",
+			"tipo": "lista",
+			"nome": "Qual a forma de marcação do animal?",
+			"options": {
+				"opcoes": ["Natural", "Brinco", "Colar", "Microchip", "Elastômero", "Corte de escama"]
+			}
+		},
+		{
+			"nome_widget": "Texto curto",
+			"widget": "texto_curto",
+			"id": "obs_marcacao",
+			"tipo": "texto",
+			"nome": "Obs da marcação"
+		},
+		{
+			"nome_widget": "Divisor",
+			"widget": "divisor",
+			"tipo": "semvalor",
+			"id": "div3"
+		},
+		{
+			"nome_widget": "Anotação",
+			"widget": "anotacao",
+			"tipo": "semvalor",
+			"id": "nota2",
+			"options": {
+				"texto": "Em caso de coleta de espécime ou material biológico:"
+			}
+		},
+		{
+			"nome_widget": "Multicheck",
+			"widget": "multicheck",
+			"id": "tipo_coleta",
+			"tipo": "lista",
+			"nome": "Tipo de coleta",
+			"options": {
+				"opcoes": ["Indivíduo coletado", "Sangue", "Tecido", "Pelos", "Escamas", "Outros"]
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_de_coleta",
+			"tipo": "texto",
+			"nome": "Observações de coleta",
+			"options": {
+				"rows": 2
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_geral",
+			"tipo": "texto",
+			"nome": "Obs geral",
+			"options": {
+				"rows": 2
+			}
+		}
+	],
+	"metadados_finais": [
+		{
+			"nome_widget": "Hora",
+			"widget": "hora",
+			"id": "hora_final",
+			"tipo": "hora",
+			"nome": "Horário de término"
+		},
+		{
+			"nome_widget": "Temperatura",
+			"widget": "decimal",
+			"id": "temp_final",
+			"tipo": "decimal",
+			"nome": "Temperatura Final",
+			"options": {
+				"speedDial": true,
+				"unidade": "°C"
+			}
+		},
+		{
+			"nome_widget": "Texto longo",
+			"widget": "texto_longo",
+			"id": "obs_finais",
+			"tipo": "texto",
+			"nome": "Observações finais",
+			"options": {
+				"rows": 9
+			}
+		}
+	]
+}
