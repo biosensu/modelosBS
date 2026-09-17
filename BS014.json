@@ -2,6 +2,7 @@
 	"uuid": "BS014",
 	"nome": "Pitfalls",
 	"grupo": "outros",
+	"descricao": "Armadilhas de interceptação e queda (pitfall com cercas-guia) para herpetofauna e fauna edáfica de pequeno porte. Método padronizado para inventário de anfíbios e répteis em diagnósticos e monitoramento.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

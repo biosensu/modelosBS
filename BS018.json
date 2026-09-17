@@ -2,6 +2,7 @@
     "uuid": "BS018",
     "nome": "Anotações com GPS",
     "grupo": "outros",
+    "descricao": "Registro georreferenciado de observações avulsas, sem protocolo de esforço. Para dados oportunísticos e encontros ocasionais que complementam as amostragens sistemáticas.",
     "metadados_iniciais": [
         {
             "nome_widget": "Texto curto",

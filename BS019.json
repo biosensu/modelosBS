@@ -2,6 +2,7 @@
 	"uuid": "BS019",
 	"nome": "Lista Simples de Espécies",
 	"grupo": "ornito",
+	"descricao": "Registro direto de espécie e nº de indivíduos por ponto, sem esforço padronizado. Para checklists e inventário qualitativo — quando se quer a lista de espécies presentes, não índices comparáveis de abundância.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

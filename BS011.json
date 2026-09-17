@@ -2,6 +2,7 @@
 	"uuid": "BS011",
 	"nome": "Transecto",
 	"grupo": "ornito",
+	"descricao": "Avifauna por transecção linear, com tipo de contato (visual/auditivo). Cobre gradientes ambientais e grandes áreas — inventário de riqueza e detecção de espécies-alvo em diagnósticos de fauna.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

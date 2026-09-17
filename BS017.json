@@ -2,6 +2,7 @@
 	"uuid": "BS017",
 	"nome": "Busca ativa",
 	"grupo": "outros",
+	"descricao": "Procura visual/auditiva ativa limitada por tempo, versátil para herpetofauna e outros grupos. Complementa métodos passivos e registra espécies de interesse (ameaçadas, invasoras).",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

@@ -2,6 +2,7 @@
 	"uuid": "BS016",
 	"nome": "Cadastramento Arbóreo",
 	"grupo": "botanica",
+	"descricao": "Inventário florestal com identificação individual (plaqueta), espécie e ocorrência. Base para fitossociologia, monitoramento de vegetação e programas de supressão/compensação no licenciamento.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

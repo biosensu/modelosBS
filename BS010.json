@@ -2,6 +2,7 @@
 	"uuid": "BS010",
 	"nome": "Ponto Fixo",
 	"grupo": "ornito",
+	"descricao": "Avifauna por pontos de contagem com raio fixo. Gera índices de abundância e riqueza padronizados por ponto/esforço, adequado a monitoramento de longo prazo e comparação entre estações amostrais no licenciamento.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

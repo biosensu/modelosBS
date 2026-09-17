@@ -2,6 +2,7 @@
 	"uuid": "BS012",
 	"nome": "Rede de neblina (Aves)",
 	"grupo": "ornito",
+	"descricao": "Captura de aves com redes de neblina para amostrar o sub-bosque e estudos que exigem manuseio: anilhamento, biometria, coleta de material. Comum em monitoramento e resgate de fauna.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

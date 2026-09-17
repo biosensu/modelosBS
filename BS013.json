@@ -2,6 +2,7 @@
 	"uuid": "BS013",
 	"nome": "Rede de neblina (morcegos)",
 	"grupo": "masto",
+	"descricao": "Captura de morcegos com redes de neblina, com variáveis ambientais (temperatura, umidade). Inventário e monitoramento de quirópteros — grupo bioindicador frequentemente exigido no licenciamento.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

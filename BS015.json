@@ -2,6 +2,7 @@
 	"uuid": "BS015",
 	"nome": "Sherman e Tomahawk",
 	"grupo": "masto",
+	"descricao": "Captura viva de pequenos mamíferos não-voadores (Sherman e Tomahawk). Riqueza e sucesso de captura para inventário e monitoramento de mastofauna de pequeno porte.",
 	"metadados_iniciais": [
 		{
 			"nome_widget": "Texto curto",

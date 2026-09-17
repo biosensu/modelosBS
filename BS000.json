@@ -2,6 +2,7 @@
     "uuid": "BS000",
     "nome": "Listas de Mackinnon",
     "grupo": "ornito",
+    "descricao": "Amostragem de avifauna por listas de Mackinnon (listas de N espécies). Estima abundância relativa e riqueza padronizadas por esforço — permite comparar áreas e campanhas em inventários e programas de monitoramento sem contagem absoluta de indivíduos.",
     "configs": {
         "sem_paginacao": true 
     },
