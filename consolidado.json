@@ -3,6 +3,7 @@
     "uuid": "BS000",
     "nome": "Listas de Mackinnon",
     "grupo": "ornito",
+    "descricao": "Amostragem de avifauna por listas de Mackinnon (listas de N espécies). Estima abundância relativa e riqueza padronizadas por esforço — permite comparar áreas e campanhas em inventários e programas de monitoramento sem contagem absoluta de indivíduos.",
     "configs": {
       "sem_paginacao": true
     },
@@ -2316,6 +2317,7 @@
     "uuid": "BS010",
     "nome": "Ponto Fixo",
     "grupo": "ornito",
+    "descricao": "Avifauna por pontos de contagem com raio fixo. Gera índices de abundância e riqueza padronizados por ponto/esforço, adequado a monitoramento de longo prazo e comparação entre estações amostrais no licenciamento.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -2442,6 +2444,7 @@
     "uuid": "BS011",
     "nome": "Transecto",
     "grupo": "ornito",
+    "descricao": "Avifauna por transecção linear, com tipo de contato (visual/auditivo). Cobre gradientes ambientais e grandes áreas — inventário de riqueza e detecção de espécies-alvo em diagnósticos de fauna.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -2554,6 +2557,7 @@
     "uuid": "BS012",
     "nome": "Rede de neblina (Aves)",
     "grupo": "ornito",
+    "descricao": "Captura de aves com redes de neblina para amostrar o sub-bosque e estudos que exigem manuseio: anilhamento, biometria, coleta de material. Comum em monitoramento e resgate de fauna.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -3026,6 +3030,7 @@
     "uuid": "BS013",
     "nome": "Rede de neblina (morcegos)",
     "grupo": "masto",
+    "descricao": "Captura de morcegos com redes de neblina, com variáveis ambientais (temperatura, umidade). Inventário e monitoramento de quirópteros — grupo bioindicador frequentemente exigido no licenciamento.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -3404,6 +3409,7 @@
     "uuid": "BS014",
     "nome": "Pitfalls",
     "grupo": "outros",
+    "descricao": "Armadilhas de interceptação e queda (pitfall com cercas-guia) para herpetofauna e fauna edáfica de pequeno porte. Método padronizado para inventário de anfíbios e répteis em diagnósticos e monitoramento.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -3819,6 +3825,7 @@
     "uuid": "BS015",
     "nome": "Sherman e Tomahawk",
     "grupo": "masto",
+    "descricao": "Captura viva de pequenos mamíferos não-voadores (Sherman e Tomahawk). Riqueza e sucesso de captura para inventário e monitoramento de mastofauna de pequeno porte.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -4203,6 +4210,7 @@
     "uuid": "BS016",
     "nome": "Cadastramento Arbóreo",
     "grupo": "botanica",
+    "descricao": "Inventário florestal com identificação individual (plaqueta), espécie e ocorrência. Base para fitossociologia, monitoramento de vegetação e programas de supressão/compensação no licenciamento.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -4399,6 +4407,7 @@
     "uuid": "BS017",
     "nome": "Busca ativa",
     "grupo": "outros",
+    "descricao": "Procura visual/auditiva ativa limitada por tempo, versátil para herpetofauna e outros grupos. Complementa métodos passivos e registra espécies de interesse (ameaçadas, invasoras).",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -4533,6 +4542,7 @@
     "uuid": "BS018",
     "nome": "Anotações com GPS",
     "grupo": "outros",
+    "descricao": "Registro georreferenciado de observações avulsas, sem protocolo de esforço. Para dados oportunísticos e encontros ocasionais que complementam as amostragens sistemáticas.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
@@ -4585,6 +4595,7 @@
     "uuid": "BS019",
     "nome": "Lista Simples de Espécies",
     "grupo": "ornito",
+    "descricao": "Registro direto de espécie e nº de indivíduos por ponto, sem esforço padronizado. Para checklists e inventário qualitativo — quando se quer a lista de espécies presentes, não índices comparáveis de abundância.",
     "metadados_iniciais": [
       {
         "nome_widget": "Texto curto",
